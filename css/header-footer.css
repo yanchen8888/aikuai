@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/*==========================header start=========================*/
+#header .nav-background{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+#header .container{
+    position: relative;
+}
+#header .navbar-default{
+    border: 0;
+}
+#header  img{
+    padding-top: 8px;
+    position: absolute;
+    max-width: 213px;
+    height: 44px;
+    left: 0 ;
+    top: 0;
+}
+#header .navbar-nav{
+    float: right;
+    margin-left: 6%;
+}
+#header .navbar-nav li a{
+    padding-top: 19px;
+    margin-left: 12px;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+#header .navbar-nav li.active a,#header .navbar-nav li a:hover{
+    color: #fff;
+    padding: 4px 15px;
+    background-color: #0088cc;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+#header .nav-total > li > a.btn{
+    background-color: transparent;
+    color: #9b9b9b;
+    border: 1px solid #9b9b9b;
+    text-shadow: none;
+    opacity: 0.8;
+    padding: 6px 15px;
+    margin: 11px 0 0 8px;
+}
+#header .nav-total > li > a:hover{
+    opacity: 1;
+}
+@media (max-width: 1200px) {
+    #header .nav-total > li > a.btn{
+       display: none;
+    }
+}
+@media (max-width: 992px) {
+    #header  img{
+        display: none;
+    }
+    #header .navbar-collapse{
+        margin-left: 0;
+    }
+    #header .navbar-nav li a{
+        margin-right: 1px;
+    }
+}
+@media (max-width: 768px) {
+    #header .navbar-collapse{
+        margin-left: 0;
+    }
+    #header .navbar-nav{
+        float: right;
+        margin-right: 20%;
+    }
+}
+/*============================header end========================*/
+/*============================footer start========================*/
+#footer  img{
+    float: right;
+    width: 98px;
+    margin: 40px 0 0 16px;
+}
+#footer{
+    background-color: #333;
+}
+#footer h4{
+    padding: 15px 0;
+    font-size: 16px;
+    color: rgb(186, 193, 200);
+}
+#footer h5{
+    padding: 15px 0;
+    font-size: 16px;
+    color: rgb(186, 193, 200);
+}
+#footer p{
+    color: #bac1c8;
+    font-size: 14px;
+}
+#footer p:last-of-type{
+    margin-top: 40px;
+    line-height: 30px;
+}
+#footer a{
+    color: #bac1c8;
+    font-size: 14px;
+    line-height: 30px;
+}
+@media (max-width: 768px) {
+    #footer  img{
+        float: none;
+    }
+    #footer h5{
+        padding:0;
+    }
+}
+/*============================footer end========================*/
